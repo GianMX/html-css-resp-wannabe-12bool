@@ -62,7 +62,7 @@
 }
 /* END LG */
 /* MD */
-@media screen and (min-width:480px) and (max-width:992px){
+@media screen and (min-width:481px) and (max-width:992px){
 .col-md-1 { width: calc((100%/12) * 1) }
 .col-md-2 { width: calc((100%/12) * 2) }
 .col-md-3 { width: calc((100%/12) * 3) }

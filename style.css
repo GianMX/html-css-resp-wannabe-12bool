@@ -71,8 +71,8 @@ img {
 .clear {
   clear: both;
 }
-/* MODIFICHE STILE SEZIONE MD */ 
-@media screen and (min-width:480px) and (max-width:992px){
+/* MODIFICHE STILE SEZIONE MD */
+@media screen and (min-width:481px) and (max-width:992px){
 * {
   background-color: #5aceff;
   margin: 0 auto;
@@ -134,6 +134,14 @@ img {
 }
 #lezioni .row img {
   display: none;
+}
+#lezioni .row>.left, #lezioni .row>.right {
+  width: 100%;
+  float: none;
+}
+#steps .row>.left, #steps .row>.central, #steps .row>.right {
+  float: none;
+  width: 100%;
 }
 }
 /* FINE MODIFICHE STILE SEZIONE XS */
