@@ -71,3 +71,21 @@ img {
 .clear {
   clear: both;
 }
+/* MODIFICHE STILE SEZIONE XS */
+@media screen and (max-width:480px){
+* {
+  background-color: yellow;
+}
+h1 {
+  font-size: 55px;
+}
+h3 {
+  font-size: 40px;
+  color:blue;
+}
+span {
+  color: red;
+}
+.xs-display-none { display: none; }
+.xs-resize {height:100px; }
+}
