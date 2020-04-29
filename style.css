@@ -74,7 +74,28 @@ img {
 
 @media screen and (min-width:480px) and (max-width:992px){
 * {
-  background-color: yellow;
+  background-color: #5aceff;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 50px;
+  color: #ff8e5a;
+  background-color: #3620ff;
+}
+h3 {
+  font-size: 30px;
+  color:#ffe15a;
+}
+span {
+  color: #c55aff;
+  font-size: 20px;
+}
+.md-resize {
+  height:100px;
+  padding: 15px;
+  }
+#why .row>.first, #why .row>.second, #why .row>.third{
+  margin-top:30px;
 }
 }
 /* MODIFICHE STILE SEZIONE XS */
@@ -85,6 +106,7 @@ img {
 h1 {
   font-size: 50px;
   color: #ff2b20;
+  background-color: black;
 }
 h3 {
   font-size: 30px;
@@ -98,5 +120,8 @@ span {
   margin-top: 60px;
 }
 .xs-display-none { display: none; }
-.xs-resize {height:100px; }
+.xs-resize { height:90px;}
+}
+
+@media screen and (min-width:992px) {
 }
