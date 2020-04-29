@@ -59,7 +59,6 @@
 .col-lg-offset-9 { margin-left: calc((100%/12) * 9) }
 .col-lg-offset-10 { margin-left: calc((100%/12) * 10)}
 .col-lg-offset-11 { margin-left: calc((100%/12) * 11)}
-.lg-display-none { display: none; }
 }
 /* END LG */
 /* MD */
@@ -88,7 +87,6 @@
 .col-md-offset-9 { margin-left: calc((100%/12) * 9) }
 .col-md-offset-10 { margin-left: calc((100%/12) * 10)}
 .col-md-offset-11 { margin-left: calc((100%/12) * 11)}
-.md-display-none { display: none; }
 }
 /* END MD */
 /* XS */

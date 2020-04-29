@@ -71,33 +71,37 @@ img {
 .clear {
   clear: both;
 }
-
+/* MODIFICHE STILE SEZIONE MD */ 
 @media screen and (min-width:480px) and (max-width:992px){
 * {
   background-color: #5aceff;
   margin: 0 auto;
 }
 h1 {
-  font-size: 50px;
+  font-size: 65px;
   color: #ff8e5a;
   background-color: #3620ff;
 }
 h3 {
-  font-size: 30px;
-  color:#ffe15a;
+  font-size: 45px;
+  color:black;
 }
 span {
-  color: #c55aff;
-  font-size: 20px;
+  color: #3c0bff;
+  font-size: 30px;
 }
 .md-resize {
   height:100px;
   padding: 15px;
   }
+img {
+  height:100px;
+}
 #why .row>.first, #why .row>.second, #why .row>.third{
   margin-top:30px;
 }
 }
+ /* FINE MODIFICHE STILE SEZIONE MD */
 /* MODIFICHE STILE SEZIONE XS */
 @media screen and (max-width:480px){
 * {
@@ -109,19 +113,32 @@ h1 {
   background-color: black;
 }
 h3 {
-  font-size: 30px;
-  color:#ff8c2d;
+  font-size: 35px;
+  color:white;
 }
 span {
   color: #fff52d;
-  font-size: 20px;
+  font-size: 25px;
+}
+img {
+  display:none;
 }
 .row {
-  margin-top: 60px;
+  margin-top: 0px;
 }
-.xs-display-none { display: none; }
-.xs-resize { height:90px;}
+.xs-display-none {
+  display: none;
 }
+.container {
+  margin-top:0;
+}
+#lezioni .row img {
+  display: none;
+}
+}
+/* FINE MODIFICHE STILE SEZIONE XS */
 
+/* MODIFICHE STILE SEZIONE LG */
 @media screen and (min-width:992px) {
 }
+/* FINE MODIFICHE STILE SEZIONE LG */
