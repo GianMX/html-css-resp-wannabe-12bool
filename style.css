@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 /* MODIFICHE STILE SEZIONE MD */
-@media screen and (min-width:481px) and (max-width:992px){
+@media screen and (min-width:761px) and (max-width:992px){
 * {
   background-color: #5aceff;
   margin: 0 auto;
@@ -103,7 +103,7 @@ img {
 }
  /* FINE MODIFICHE STILE SEZIONE MD */
 /* MODIFICHE STILE SEZIONE XS */
-@media screen and (max-width:480px){
+@media screen and (max-width:760px){
 * {
   background-color: #2d54ff;
 }
